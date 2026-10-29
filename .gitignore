@@ -1,0 +1,49 @@
+# Maven build output
+target/
+**/target/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Application logs
+*.log
+logs/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Temporary files
+*.tmp
+*.temp
